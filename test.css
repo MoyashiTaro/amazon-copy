@@ -55,3 +55,14 @@
     background: linear-gradient(to bottom, #FFC778, #FFF);
     /*グラデーション以外は省略*/
   }
+
+
+  p {
+    color:#111111;
+  }
+  
+  @media screen and (max-width: 480px){
+  p {
+    color:#FFFFFF;
+  }
+  }

@@ -238,15 +238,16 @@ select.hidari{
 }
 
 .background-img{
-    /* background: -moz-linear-gradient(-180deg,rgba(234,237,237,0),#eaeded);
-    background: -webkit-linear-gradient(-180deg,rgba(234,237,237,0),#eaeded); */
+    width: 100vw;
+    height: 10%;
     background: linear-gradient(-180deg,rgba(234,237,237,0),#eaeded);
-    
+    position: relative;
+    top: -10%;
 }
 
 .imgfile{
     width: 79%;
-    height: 260px;
+    height: 18vw;
     margin: 10.5%;
     margin-top: 0;
 }
@@ -264,50 +265,26 @@ select.hidari{
     margin: 5%;
     margin-bottom: 4.5%;
     font-weight: bold;
+
 }
 
 
 .box1{
     width: 23vw;
     height: 30vw;
-    /* border: 1px solid #000000; */
     background-color: #ffffff;
     margin-left: 1.6vw;
-    /* position: absolute;
-    top: 17%;
-    left: 10%; */
 }
 
-
-.box2{
-    width: 23vw;
-    height: 30vw;
-    /* border: 1px solid #000000; */
-    background-color: #ffffff;
-    margin-left: 1.6vw;
-    /* position: absolute;
-    top: 17%;
-    left: 40%; */
-}
-.box3{
-    width: 23vw;
-    height: 30vw;
-    /* border: 1px solid #000000; */
-    background-color: #ffffff;
-    margin-left: 1.6vw;
-    /* position: absolute;
-    top: 17%;
-    left: 70%; */
-}
 .box4{
     width: 23vw;
     height: 30vw;
-    /* border: 1px solid #000000; */
-    /* background-color: #ffffff; */
     margin-left: 1.6vw;
-    /* position: absolute;
-    top: 17%;
-    left: 90%; */
+}
+@media screen and (max-width: 500px) {
+    .box4{
+        visibility: hidden !important;
+        }
 }
 .box4-1{
     width: 23vw;
@@ -334,11 +311,6 @@ select.hidari{
     padding: 5px;
     display: inline-block;
     text-decoration: none;
-
-    
-    /* position: relative; */
-    /* padding: 0.25em 0.5em; */
-    /* background: rgb(244, 188, 3); */
     background: #f0c14b;
     border: solid 1px  #000000;
     border-radius: 4px;
