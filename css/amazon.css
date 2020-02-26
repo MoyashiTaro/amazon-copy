@@ -297,6 +297,7 @@ select.hidari{
     height: 18vw;
     margin: 10.5%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .half{
@@ -321,6 +322,11 @@ select.hidari{
     height: 30vw;
     background-color: #ffffff;
     margin-left: 1.6vw;
+}
+
+.box1-above-sen{
+    font-size: 13px;
+    color: rgb(17,17,17);
 }
 
 .box4{
@@ -371,7 +377,7 @@ select.hidari{
 
 .box4-2{
     width: 20vw;
-    height: 19vw;
+    height: 18vw;
     /* border: 1px solid #000000; */
     background-color: #ffffff;
     /* margin-left: 40px; */
