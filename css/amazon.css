@@ -319,7 +319,7 @@ select.hidari{
 
 .box1{
     width: 23vw;
-    height: 30vw;
+    height: 28vw;
     background-color: #ffffff;
     margin-left: 1.6vw;
 }
@@ -327,6 +327,13 @@ select.hidari{
 .box1-above-sen{
     font-size: 13px;
     color: rgb(17,17,17);
+}
+
+.box1-above-sen-copy{
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    color:#0066c0;
 }
 
 .box4{
@@ -343,7 +350,7 @@ select.hidari{
 }
 .box4-1{
     width: 23vw;
-    height: 10vw;
+    height: 9vw;
     /* border: 1px solid #000000; */
     background-color: #ffffff;
     /* margin-left: 40px; */
